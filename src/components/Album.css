@@ -1,0 +1,51 @@
+.cell {
+  max-width: 170px;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.cover {
+  position: relative;
+}
+
+.cover img {
+  border-radius: 5px;
+}
+
+.link:hover .cover img {
+  filter: brightness(50%);
+}
+
+.play {
+  position: absolute;
+  left: 48px;
+  top: 63px;
+  opacity: 0;
+}
+
+.link:hover .play {
+  opacity: 1;
+}
+
+.title {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 1em;
+}
+
+.link:hover .title {
+  color: #fff;
+}
+
+.artist {
+  font-size: 14px;
+  color: #8D91B4;
+}
+
+.link:hover .artist {
+  color: #fff;
+}
